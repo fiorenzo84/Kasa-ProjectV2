@@ -1,0 +1,36 @@
+.container-Img-Collapse {
+  margin: 0px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+
+  .imgBannerAbout {
+    object-fit: cover;
+    height: 223px;
+    border-radius: 10px;
+    filter: brightness(70%);
+  }
+}
+
+/// Responsive ////
+@media (min-width: $tablet) {
+  .container-Img-Collapse {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  header {
+    margin: 0;
+    max-width: 1240px;
+  }
+}
+@media (min-width: $desktop) {
+  .container-Collapse {
+    max-width: 1023px;
+    margin: 40px auto;
+    height: auto;
+  }
+  .imgBannerAbout {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+}

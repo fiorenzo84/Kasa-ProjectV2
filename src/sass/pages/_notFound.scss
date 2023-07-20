@@ -1,0 +1,43 @@
+.containerError404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $primary-color;
+  margin-top: auto;
+  h1 {
+    text-align: center;
+    width: 198px;
+    height: 90px;
+    font-size: 96px;
+    margin-top: 0;
+  }
+  p {
+    width: 260px;
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+  }
+  .errorLink {
+    font-size: 14px;
+    margin: 50px;
+    color: $primary-color;
+  }
+}
+
+///// Responsive //////
+@media (min-width: $tablet) {
+  .containerError404 h1 {
+    font-size: 225px;
+    width: auto;
+    height: auto;
+    margin: 60px;
+  }
+  .containerParagraph {
+    display: flex;
+    p {
+      margin-right: 5px;
+      width: auto;
+      font-size: 30px;
+    }
+  }
+}

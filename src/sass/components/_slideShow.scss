@@ -1,0 +1,57 @@
+.container-slideShow {
+  position: relative;
+  height: 255px;
+  border-radius: 10px;
+  img {
+    border-radius: 10px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    // animation images
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    &.active {
+      opacity: 1;
+    }
+  }
+  .arrow-left {
+    @include arrow-style;
+    left: 3px;
+  }
+
+  .arrow-right {
+    @include arrow-style;
+    right: 3px;
+  }
+  .container-counter-image {
+    position: absolute;
+    color: white;
+    top: 80%;
+    left: 48%;
+    p {
+      color: white;
+    }
+  }
+}
+
+/// Responsive ///
+@media (min-width: $tablet) {
+  .container-slideShow {
+    .arrow-left,
+    .arrow-right {
+      height: 2em;
+      width: 2em;
+    }
+  }
+}
+@media (min-width: $large) {
+  .container-slideShow {
+    height: 415px;
+    .arrow-left,
+    .arrow-right {
+      height: 4em;
+      width: 4em;
+    }
+  }
+}
