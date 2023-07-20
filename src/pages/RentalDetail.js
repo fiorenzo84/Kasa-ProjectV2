@@ -1,8 +1,3 @@
-// useParams   = get the rental ID from the URL
-// useLocation = access the 'location' object passed by the RentalCard Link component
-// useEffect   = allows to perform side effects in the functional component
-// useNavigate = redirects the user if the path does not exist
-
 import rentalsData from "../data/data.json";
 import {useParams, useLocation, useNavigate} from "react-router-dom";
 import {useEffect, useState} from "react";

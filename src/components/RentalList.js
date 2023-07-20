@@ -4,7 +4,6 @@ import RentalCard from "./RentalCard";
 export default function RentalList(props) {
   return (
     <section className="gallery">
-      {/* For each location, create a new RentalCard */}
       {props.rentals.map((rental) => (
         <RentalCard key={rental.id} rental={rental} />
       ))}

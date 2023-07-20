@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      {/* imports the data from the JSON into the child component */}
       <RentalList rentals={rentalsData} />
     </main>
   );

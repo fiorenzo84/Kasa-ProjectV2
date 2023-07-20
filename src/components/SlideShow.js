@@ -3,7 +3,6 @@ import {FaChevronLeft, FaChevronRight} from "react-icons/fa";
 
 export default function SlideShow(props) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  //console.log(props);
 
   // Go to the previous image
   function previousSlide() {
@@ -26,9 +25,9 @@ export default function SlideShow(props) {
   const hasMoreImages = props.rental.length > 1;
 
   return (
+    /* if more than one image, display the arrows and their function along with the counter */
     <div>
       <div className="container-slideShow">
-        {/* if more than one image, display the arrows and their function along with the counter */}
         {hasMoreImages && (
           <FaChevronLeft className="arrow-left" onClick={previousSlide} />
         )}

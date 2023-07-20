@@ -11,6 +11,7 @@
     border-radius: 10px;
     filter: brightness(70%);
   }
+
   p {
     position: absolute;
     left: 8%;
@@ -33,6 +34,7 @@
       border-radius: 30px;
       margin: 0px 15px;
     }
+
     p {
       width: 80%;
       display: flex;
@@ -43,6 +45,7 @@
 @media (min-width: $desktop) {
   .container_BannerBackground {
     margin: 0px;
+
     .bannerBackground {
       margin: 0px;
       max-width: 1240px;
@@ -55,12 +58,15 @@
     height: 223px;
     margin: auto;
     border-radius: 30px;
+
     .bannerBackground {
       border-radius: 30px;
     }
+
     p {
       font-size: 48px;
     }
+
     img {
       height: 223px;
     }

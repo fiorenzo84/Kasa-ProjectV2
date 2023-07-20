@@ -26,22 +26,27 @@
   border-radius: 5px;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
+
   .open {
     max-height: 1000px;
     transition: max-height 0.3s ease-in-out;
   }
+
   .closed {
     transition: max-height 0.3s ease-in-out;
   }
+
   .content-inner {
     padding: 15px;
   }
+
   .collapse-paragraph {
     margin: 15px;
     line-height: 1.15rem;
     letter-spacing: 0.01em;
   }
 }
+
 .icon {
   display: flex;
   align-items: center;
@@ -50,9 +55,11 @@
   height: 30px;
   font-size: 20px;
   transition: transform 0.2s ease-in-out;
+
   &:hover {
     cursor: pointer;
   }
+
   &.open {
     transform: rotate(-180deg);
   }

@@ -2,10 +2,8 @@ import {Link} from "react-router-dom";
 
 // The component receives the props of each individual card
 export default function RentalCard(props) {
-  //console.log(props);
   return (
     <div className="cards">
-      {/* Link on the image */}
       <Link
         to={{
           pathname: `/rental/${props.rental.id}`,

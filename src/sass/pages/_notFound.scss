@@ -4,6 +4,7 @@
   align-items: center;
   color: $primary-color;
   margin-top: auto;
+
   h1 {
     text-align: center;
     width: 198px;
@@ -11,12 +12,14 @@
     font-size: 96px;
     margin-top: 0;
   }
+
   p {
     width: 260px;
     font-size: 18px;
     margin: 0px;
     text-align: center;
   }
+
   .errorLink {
     font-size: 14px;
     margin: 50px;
@@ -34,6 +37,7 @@
   }
   .containerParagraph {
     display: flex;
+
     p {
       margin-right: 5px;
       width: auto;
