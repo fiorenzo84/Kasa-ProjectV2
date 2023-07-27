@@ -28,8 +28,7 @@ export default function RentalDetail() {
         navigate("/not-found");
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id]);
+  }, [id, rental, navigate]);
 
   const MAX_RATING = 5;
   const rentalTitle = rental ? rental.title : "Loading...";
