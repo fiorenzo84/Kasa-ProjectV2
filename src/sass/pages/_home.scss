@@ -1,0 +1,12 @@
+/// Responsive ///
+@media (min-width: $tablet) {
+  header {
+    margin: 0 auto;
+  }
+}
+@media (min-width: $desktop) and (max-width: $large) {
+  main {
+    margin: 0px 50px 50px;
+    max-width: 1440px;
+  }
+}

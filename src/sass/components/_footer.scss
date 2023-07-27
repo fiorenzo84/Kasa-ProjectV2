@@ -1,0 +1,27 @@
+.footer {
+  background: black;
+  color: white;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .logoFooter {
+    width: 122px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    width: 30%;
+  }
+}
+
+///// Responsive //////
+@media (min-width: $large) {
+  .footer p {
+    font-size: 24px;
+  }
+}
