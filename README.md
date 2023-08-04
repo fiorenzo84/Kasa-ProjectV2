@@ -17,7 +17,8 @@ En tant que développeur front-end freelance, j'ai été chargé de :
 
 ### Résultat
 
-![Description de l'image](../Kasa-ProjectV2/public/projet%20kaza.png)
+![projet kaza](https://github.com/fiorenzo84/Kasa-ProjectV2/assets/111232852/57aafcf2-4ff7-452c-9c36-a3f8c6d324a4)
+
 
 ## Installation
 
