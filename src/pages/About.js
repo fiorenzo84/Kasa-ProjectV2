@@ -1,14 +1,11 @@
 import BannerAbout from "../assets/images/bannerAbout.png";
 import Collapse from "../components/Collapse";
+import Banner from "../components/Banner";
 
 export default function About() {
   return (
     <div className="container-Img-Collapse">
-      <img
-        src={BannerAbout}
-        alt="bannière section à propos"
-        className="imgBannerAbout"
-      />
+      <Banner image={BannerAbout} isInAbout={true} />
       <div className="container-Collapse">
         <Collapse title="Fiabilité">
           Les annonces postées sur Kasa garantissent une fiabilité totale. Les

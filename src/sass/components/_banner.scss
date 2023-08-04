@@ -5,6 +5,10 @@
   margin: 0px 15px 0px;
   justify-content: center;
 
+  &.aboutBanner {
+    margin: 0;
+  }
+
   .bannerBackground {
     width: 100%;
     object-fit: cover;
@@ -22,12 +26,32 @@
   }
 }
 
-///// Responsive /////
+//// Responsive /////
+@media (min-width: $mobile) {
+  .container_BannerBackground {
+    height: 111px;
+    display: flex;
+    border-radius: 10px;
+    margin: 0px 15px 0px;
+    justify-content: center;
+
+    &.aboutBanner {
+      height: auto;
+      margin: 0;
+    }
+  }
+}
+
 @media (min-width: $tablet) {
   .container_BannerBackground {
     align-items: center;
     height: 223px;
     border-radius: 30px;
+
+    &.aboutBanner {
+      height: 223px;
+      margin: 0;
+    }
 
     .bannerBackground {
       height: 100%;
@@ -42,6 +66,7 @@
     }
   }
 }
+
 @media (min-width: $desktop) {
   .container_BannerBackground {
     margin: 0px;
@@ -52,12 +77,18 @@
     }
   }
 }
+
 @media (min-width: $large) {
   .container_BannerBackground {
     width: 1240px;
     height: 223px;
     margin: auto;
     border-radius: 30px;
+
+    &.aboutBanner {
+      height: 223px;
+      margin: auto;
+    }
 
     .bannerBackground {
       border-radius: 30px;

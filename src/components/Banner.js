@@ -1,14 +1,19 @@
-import bannerBackground from "../assets/images/banner.png";
+import React from "react";
 
-export default function Banner() {
+export default function Banner(props) {
+  let className = "container_BannerBackground";
+  if (props.isInAbout) {
+    className += " aboutBanner";
+  }
+
   return (
-    <div className="container_BannerBackground">
+    <div className={className}>
       <img
-        src={bannerBackground}
+        src={props.image}
         alt="photographie de l'accueil"
         className="bannerBackground"
       />
-      <p>Chez vous, partout et ailleurs</p>
+      {!props.isInAbout && props.text && <p>{props.text}</p>}
     </div>
   );
 }
