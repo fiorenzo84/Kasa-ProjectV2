@@ -3,6 +3,10 @@
 ## À propos du projet
 
 Ce projet fait partie de ma formation chez OpenClassrooms.
+## Démo
+
+Vous pouvez visiter la démo en direct de ce projet dans le lien suivant : [Démo de Kasa ici](https://kasa-inky-three.vercel.app)
+
 
 ### Le challenge
 
