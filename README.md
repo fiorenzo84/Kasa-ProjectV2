@@ -44,8 +44,3 @@ Pour installer et exécuter ce projet :
 
    npm start
 
-## Contact
-
-- Florent Tuppo
-- Email : florent.tuppo@gmail.com
-- LinkedIn : https://www.linkedin.com/in/florent-tuppo/
